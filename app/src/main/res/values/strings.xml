@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">AdmobIntegerationExample</string>
     <string name="show_consent_form">Show Consent Form</string>
+    <string name="show_banner">Show Banner</string>
+    <string name="show_interstitial">Show Interstitial</string>
+    <string name="show_native">Show Native</string>
+    <string name="show_app_open">Show App Open</string>
+    <string name="show_rewarded_interstitial">Show Rewarded Interstitial</string>
+    <string name="show_rewarded_video">Show Rewarded Video</string>
 </resources>

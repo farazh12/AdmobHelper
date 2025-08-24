@@ -11,10 +11,85 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="212dp"
+        android:layout_marginTop="16dp"
         android:onClick="OnShowConsentForm"
         android:text="@string/show_consent_form"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OnShowBanner"
+        android:text="@string/show_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/interstitial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OnShowInterstitial"
+        android:text="@string/show_interstitial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner" />
+
+    <Button
+        android:id="@+id/native_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OnShowNative"
+        android:text="@string/show_native"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/interstitial" />
+
+    <Button
+        android:id="@+id/appopen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OnShowAppOpen"
+        android:text="@string/show_app_open"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/native_ad" />
+
+    <Button
+        android:id="@+id/rewardedInterstitial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OnShowRewardedInterstitial"
+        android:text="@string/show_rewarded_interstitial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appopen" />
+
+    <Button
+        android:id="@+id/rewardedVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OnShowRewardedVideo"
+        android:text="@string/show_rewarded_video"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rewardedInterstitial" />
+
+    <FrameLayout
+        android:layout_width="409dp"
+        android:layout_height="377dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="353dp">
+
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

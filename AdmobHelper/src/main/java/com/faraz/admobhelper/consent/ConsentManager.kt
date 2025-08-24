@@ -1,4 +1,4 @@
-package com.faraz.admobhelper
+package com.faraz.admobhelper.consent
 
 import android.app.Activity
 import android.content.Context
