@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AdmobIntegerationExample</string>
+    <string name="show_consent_form">Show Consent Form</string>
+</resources>
